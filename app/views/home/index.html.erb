@@ -41,7 +41,7 @@
                 <p class="text-black-50"><%= group.created_at.strftime("%Y-%m-%d") %></p>
               </div>
             </div>
-            <div class="fw-bold">$100</div>
+            <div class="fw-bold">$<%= group.entities.sum(:amount) %></div>
         </div>
       <% end %>
     <% end %>
