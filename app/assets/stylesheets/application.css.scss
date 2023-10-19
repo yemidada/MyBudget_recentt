@@ -55,6 +55,12 @@ input:focus {
   padding-top: 10px;
 }
 
+.header_button {
+  border-radius: 3px;
+  padding: 3px 8px;
+  border: 1px solid #fff;
+}
+
 .navbar-default input[type="submit"],
 select {
   border: none;

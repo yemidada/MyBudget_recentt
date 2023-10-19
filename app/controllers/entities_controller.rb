@@ -18,7 +18,7 @@ class EntitiesController < ApplicationController
     @entity = Entity.new(entity_params)
     @entity.author_id = current_user.id
     if @entity.save
-      redirect_to entities_path(@entity.group_id), notice: 'Add new transaction'
+      redirect_to group_path(@entity.group_id), notice: 'Add new transaction'
     else
       render :new
     end
