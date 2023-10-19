@@ -71,3 +71,6 @@ test:
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
+  database: my_budget_production
+  username: my_budget_render
+  password: <%= ENV['MY_BUDGET_RENDER_DATABASE_PASSWORD'] %>
