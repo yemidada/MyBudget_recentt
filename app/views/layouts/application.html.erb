@@ -27,7 +27,7 @@
 
       <% if user_signed_in? %>
         <li><%= link_to "Home", "/" %></li>
-        <li> <%= link_to 'Logout', destroy_user_session_path, data: {turbo_method: :delete, turbo_confirm: 'Are you sure you want to delete this recipe?'}, class: 'nav-link' %></li>
+        <li><%= link_to "Logout", "/logout" %></li>
          <% @groups.each do |group|%>
           <li>
              <%= link_to controller: 'groups', action: 'show', id: group.id do %>
