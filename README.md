@@ -13,6 +13,8 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [Live Demo](#Live-Demo) 
+  - [Video Walkthrogh](#Video-Walkthrogh) 
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
@@ -92,6 +94,12 @@ On Windows, by using [chocolatey](https://chocolatey.org) you can install.
 # install ruby
 C:\> choco install ruby
 ```
+
+### Live Demo 
+<a href="https://mybudget-lf89.onrender.com/">Live Demo Link</a>
+
+### Video Walkthrogh 
+<a href="https://mybudget-lf89.onrender.com/">Video Walkthrough</a>
 
 
 ### Setup
