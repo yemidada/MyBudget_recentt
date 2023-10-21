@@ -99,7 +99,7 @@ C:\> choco install ruby
 <a href="https://mybudget-lf89.onrender.com/">Live Demo Link</a>
 
 ### Video Walkthrogh 
-<a href="https://mybudget-lf89.onrender.com/">Video Walkthrough</a>
+<a href="https://www.loom.com/share/34d6945226804456a9ff67d036a7c385?sid=ab14925f-4442-4966-8c12-b299bd2e663a">Video Walkthrough</a>
 
 
 ### Setup
